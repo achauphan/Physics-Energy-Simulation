@@ -82,13 +82,13 @@ public class SpringNode extends SpriteNode {
         g.setColor(Color.gray);
         g.drawLine(this.initialPosition.x, this.initialPosition.y, this.getNodeCenterPosition().x, this.getNodeCenterPosition().y);
         g.setColor(Color.black);
-        g.drawString("Launch Angle: "+ Math.toDegrees(3.14 - this.angle), 22, 100);
-        if (this.calcDistanceFromEquilibrium() > maxSpringDisplacement) {
-            g.drawString("Displacement: "+ maxSpringDisplacement / 10 + "m", 22, 125);
-        } else {
-            g.drawString("Displacement: "+ this.calcDistanceFromEquilibrium() / 10 + "m", 22, 125);
-        }
+        g.drawString("Launch Angle: "+ String.format("%.2f", Math.toDegrees(3.14 - this.angle)), 22, 100);
 
+        if (this.calcDistanceFromEquilibrium() > maxSpringDisplacement) {
+            g.drawString("Displacement: "+ maxSpringDisplacement / 10  + "m", 22, 125);
+        } else {
+            g.drawString("Displacement: "+ String.format("%.2f", this.calcDistanceFromEquilibrium() / 10) + "m", 22, 125);
+        }
         for (Node node : projectileList) {
             node.render(g);
         }

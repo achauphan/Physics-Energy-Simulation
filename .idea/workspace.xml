@@ -4,13 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="699e9967-46af-43f2-aeb4-c77b1dd64d16" name="Default Changelist" comment="initial commit" />
+    <list default="true" id="699e9967-46af-43f2-aeb4-c77b1dd64d16" name="Default Changelist" comment="initial commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Physics Project/Nodes/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Physics Project/Nodes/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Physics Project/Nodes/SpringNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Physics Project/Nodes/SpringNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Nodes/SpringNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Nodes/SpringNode.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1s2HGCf7sKxHFKV13mV1voKvB9X" />
