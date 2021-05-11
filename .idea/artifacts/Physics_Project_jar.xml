@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Physics Project:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Physics_Project_jar</output-path>
+    <root id="archive" name="Physics Project.jar">
+      <element id="module-output" name="Physics Project" />
+    </root>
+  </artifact>
+</component>
